@@ -1,0 +1,3 @@
+representation,n_features,sparsity,value_range,interpretable,needs_scaling
+RDKit descriptors,146,0.49652683456866775,-23.8 .. 4.49e+26,yes (named physicochemical quantities),yes
+Morgan fingerprint (MFF),114,0.8102976989215248,0 .. 37,yes (drawable substructures),no (already counts on a common scale)

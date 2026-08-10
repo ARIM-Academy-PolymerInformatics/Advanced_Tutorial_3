@@ -1,0 +1,5 @@
+features,procedure,train R2,test R2
+MFF (fing),原著の手順（リーケージあり）,0.8957,0.7367
+MFF (fing),正しい手順,0.8959,0.7364
+descriptors (desc),原著の手順（リーケージあり）,0.9603,0.7374
+descriptors (desc),正しい手順,0.959,0.7476

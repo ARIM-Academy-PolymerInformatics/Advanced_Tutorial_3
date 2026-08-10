@@ -1,0 +1,13 @@
+model,gas,n_measured_in_test,R2 (imputed targets),R2 (measured only)
+RF (MFF),He,28,0.725,0.79
+RF (MFF),H2,28,0.736,0.781
+RF (MFF),O2,63,0.738,0.756
+RF (MFF),N2,41,0.733,0.727
+RF (MFF),CO2,50,0.749,0.763
+RF (MFF),CH4,28,0.738,0.547
+DNN ensemble (MFF),He,28,0.913,0.916
+DNN ensemble (MFF),H2,28,0.902,0.891
+DNN ensemble (MFF),O2,63,0.92,0.924
+DNN ensemble (MFF),N2,41,0.906,0.908
+DNN ensemble (MFF),CO2,50,0.902,0.898
+DNN ensemble (MFF),CH4,28,0.883,0.814

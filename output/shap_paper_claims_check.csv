@@ -1,0 +1,10 @@
+substructure,paper_effect,paper_description,rank_here,effect_here,correlation,reproduced
+2854,positive,メチル基。疎水性と立体障害で透過性を上げる（論文で最重要とされた）,2,positive,0.901,True
+2168,positive,脂肪族環に付いた四級炭素。立体障害を増やす,16,positive,0.928,True
+1781,positive,結合点。ラダーポリマーは繰り返し単位あたり4点,22,positive,0.969,True
+1432,positive,芳香環に付いた二重結合炭素（ポリアセチレン骨格）,18,positive,0.986,True
+822,positive,同上（1432 を含む、より大きな環境）,14,positive,0.985,True
+799,negative,二重結合の酸素（カルボニル）。極性基,13,negative,-0.962,True
+2706,negative,二重結合の酸素。極性基,3,negative,-0.97,True
+1519,negative,エーテル。極性基,26,negative,-0.744,True
+2906,negative,窒素原子。極性基,10,negative,-0.962,True

@@ -1,0 +1,13 @@
+dataset,separation,n_screened,n_above_2008,rate [%],n_total_in_dataset,extrapolated_to_full
+Dataset B,O2/N2,19864,12,0.06,995799,602
+Dataset B,CO2/CH4,19864,0,0.0,995799,0
+Dataset B,CO2/N2,19864,0,0.0,995799,0
+Dataset B,H2/CO2,19864,0,0.0,995799,0
+Dataset C,O2/N2,20000,111,0.555,8205087,45538
+Dataset C,CO2/CH4,20000,7,0.035,8205087,2872
+Dataset C,CO2/N2,20000,0,0.0,8205087,0
+Dataset C,H2/CO2,20000,3,0.015,8205087,1231
+Dataset D,O2/N2,1124,0,0.0,1124,0
+Dataset D,CO2/CH4,1124,1,0.089,1124,1
+Dataset D,CO2/N2,1124,0,0.0,1124,0
+Dataset D,H2/CO2,1124,0,0.0,1124,0

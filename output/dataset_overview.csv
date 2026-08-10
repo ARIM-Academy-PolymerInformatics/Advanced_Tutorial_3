@@ -1,0 +1,5 @@
+,n_polymers,permeability,chemical space,role
+Dataset A (train),353,known (with gaps),existing polymers (PoLyInfo + MSA),model training
+Dataset B,995799,unknown,PoLyInfo-like (RNN generated),screening
+Dataset C,8205087,unknown,hypothetical polyimides,screening
+Dataset D,1124,unknown,ladder polymers (PIMs),screening
