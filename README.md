@@ -19,11 +19,11 @@ Jupyter Notebook 5冊に再構成したものです。
 
 | 回 | ノートブック | 論文のステップ | 内容 | Colab |
 | --- | --- | --- | --- | --- |
-| 第1回 | [`01_introduction_and_data.ipynb`](01_introduction_and_data.ipynb) | Step 1 | 課題設定（透過係数・選択性・Robeson上限）、データセットの理解、欠損の実態 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-ACADEMY-2026/Advanced_Tutorial_11_Polymer-Gas-Membrane/blob/main/01_introduction_and_data.ipynb) |
-| 第2回 | [`02_chemical_representation.ipynb`](02_chemical_representation.ipynb) | Step 2 | RDKit分子記述子とMorganフィンガープリント（MFF）の計算、特徴量の再現性 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-ACADEMY-2026/Advanced_Tutorial_11_Polymer-Gas-Membrane/blob/main/02_chemical_representation.ipynb) |
-| 第3回 | [`03_imputation_and_models.ipynb`](03_imputation_and_models.ipynb) | Step 3 | 欠損値補完（MICE）、マルチタスク学習、ランダムフォレスト vs DNNアンサンブル、**データリーケージの検証** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-ACADEMY-2026/Advanced_Tutorial_11_Polymer-Gas-Membrane/blob/main/03_imputation_and_models.ipynb) |
-| 第4回 | [`04_shap_interpretation.ipynb`](04_shap_interpretation.ipynb) | Step 3.5 | SHAPによるモデル解釈、化学的な設計指針の抽出、透過性/選択性トレードオフ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-ACADEMY-2026/Advanced_Tutorial_11_Polymer-Gas-Membrane/blob/main/04_shap_interpretation.ipynb) |
-| 第5回 | [`05_screening_and_discovery.ipynb`](05_screening_and_discovery.ipynb) | Step 4-5 | 大規模スクリーニング、候補材料の発見、外挿の不確かさ、シリーズ全体のまとめ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-ACADEMY-2026/Advanced_Tutorial_11_Polymer-Gas-Membrane/blob/main/05_screening_and_discovery.ipynb) |
+| 第1回 | [`01_introduction_and_data.ipynb`](01_introduction_and_data.ipynb) | Step 1 | 課題設定（透過係数・選択性・Robeson上限）、データセットの理解、欠損の実態 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-Academy-PolymerInformatics/Advanced_Tutorial_3/blob/main/01_introduction_and_data.ipynb) |
+| 第2回 | [`02_chemical_representation.ipynb`](02_chemical_representation.ipynb) | Step 2 | RDKit分子記述子とMorganフィンガープリント（MFF）の計算、特徴量の再現性 | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-Academy-PolymerInformatics/Advanced_Tutorial_3/blob/main/02_chemical_representation.ipynb) |
+| 第3回 | [`03_imputation_and_models.ipynb`](03_imputation_and_models.ipynb) | Step 3 | 欠損値補完（MICE）、マルチタスク学習、ランダムフォレスト vs DNNアンサンブル、**データリーケージの検証** | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-Academy-PolymerInformatics/Advanced_Tutorial_3/blob/main/03_imputation_and_models.ipynb) |
+| 第4回 | [`04_shap_interpretation.ipynb`](04_shap_interpretation.ipynb) | Step 3.5 | SHAPによるモデル解釈、化学的な設計指針の抽出、透過性/選択性トレードオフ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-Academy-PolymerInformatics/Advanced_Tutorial_3/blob/main/04_shap_interpretation.ipynb) |
+| 第5回 | [`05_screening_and_discovery.ipynb`](05_screening_and_discovery.ipynb) | Step 4-5 | 大規模スクリーニング、候補材料の発見、外挿の不確かさ、シリーズ全体のまとめ | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ARIM-Academy-PolymerInformatics/Advanced_Tutorial_3/blob/main/05_screening_and_discovery.ipynb) |
 
 各回は独立して実行できますが、第1回から順に進めることを想定しています。
 
@@ -50,8 +50,8 @@ Jupyter Notebook 5冊に再構成したものです。
 ### ローカル環境
 
 ```bash
-git clone https://github.com/ARIM-ACADEMY-2026/Advanced_Tutorial_11_Polymer-Gas-Membrane.git
-cd Advanced_Tutorial_11_Polymer-Gas-Membrane
+git clone https://github.com/ARIM-Academy-PolymerInformatics/Advanced_Tutorial_3.git
+cd Advanced_Tutorial_3
 pip install numpy pandas matplotlib seaborn scikit-learn rdkit shap tensorflow jupyter
 jupyter lab
 ```
@@ -69,7 +69,7 @@ rdkit 2026.03 / shap 0.49 / TensorFlow 2.21（Keras 3）
 ## フォルダ構成
 
 ```
-PolymerGasMembraneML/
+Advanced_Tutorial_3/
 ├── 01_introduction_and_data.ipynb      第1回
 ├── 02_chemical_representation.ipynb    第2回
 ├── 03_imputation_and_models.ipynb      第3回
